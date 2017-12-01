@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Case Problem 4
+
+   Presidential Survey
+   Author:           Svitlana Dymytrashko
+   Date:            07/10/2017
+
+   Filename:         president.htm
+   Supporting files: library.js, pm.css, pmlogo.jpg, pres0.jpg - pres16.jpg, survey.js
+
+-->
+
+   <title>Presidential Survey</title>
+   <link href="pm.css" rel="stylesheet" type="text/css" />
+   <script type = "text/javascript" src = "library.js"></script>
+<script type = "text/javascript" src = "survey.js"></script>
+</head>
+
+<body>
+   <form id="psurvey" action="">
+
+   <div id="head"><img src="pmlogo.jpg" alt="Presidential Mosaic" /></div>
+
+   <div id = "intro">
+      <h1>20th Century Presidential Survey</h1>
+      <p>Just who were the greatest presidents of the 20th century? The historians 
+         have had their say; now it's your turn. Rank the 17 presidents from Teddy
+         Roosevelt to Bill Clinton in order from your most favorite to your least. 
+         To rank the presidents, drag the official portraits shown on this page and 
+         drop them onto the list. To learn more about each president, hover your mouse 
+         pointer over their official portraits and view the bio summary in the text box.
+      </p>
+      <p>When finished, click the <b>Vote!</b> button to submit your vote and view
+         how your response compares to your fellow citizens.
+      </p>
+   </div>
+
+   <textarea id="presText" rows="" cols=""></textarea>
+
+   <div id = "leftCol">
+      <div id = "presList">
+         <div id = "pres0" class = "pres"></div>
+         <div id = "pres1" class = "pres"></div>
+         <div id = "pres2" class = "pres"></div>
+         <div id = "pres3" class = "pres"></div>
+         <div id = "pres4" class = "pres"></div>
+         <div id = "pres5" class = "pres"></div>
+         <div id = "pres6" class = "pres"></div>
+         <div id = "pres7" class = "pres"></div>
+         <div id = "pres8" class = "pres"></div>
+         <div id = "pres9" class = "pres"></div>
+         <div id = "pres10" class = "pres"></div>
+         <div id = "pres11" class = "pres"></div>
+         <div id = "pres12" class = "pres"></div>
+         <div id = "pres13" class = "pres"></div>
+         <div id = "pres14" class = "pres"></div>
+         <div id = "pres15" class = "pres"></div>
+         <div id = "pres16" class = "pres"></div>
+      </div>
+
+   </div>
+
+   <div id = "rightCol">
+      <h1>Rank the Presidents</h1>
+
+      <div id="l0" class="lnum">1. </div>
+      <div id="r0" class="rdrop"></div>
+
+      <div id="l1" class="lnum">2. </div>
+      <div id="r1" class="rdrop"></div>
+
+      <div id="l2" class="lnum">3. </div>
+      <div id="r2" class="rdrop"></div>
+
+      <div id="l3" class="lnum">4. </div>
+      <div id="r3" class="rdrop"></div>
+
+      <div id="l4" class="lnum">5. </div>
+      <div id="r4" class="rdrop"></div>
+
+      <div id="l5" class="lnum">6. </div>
+      <div id="r5" class="rdrop"></div>
+
+      <div id="l6" class="lnum">7. </div>
+      <div id="r6" class="rdrop"></div>
+
+      <div id="l7" class="lnum">8. </div>
+      <div id="r7" class="rdrop"></div>
+
+      <div id="l8" class="lnum">9. </div>
+      <div id="r8" class="rdrop"></div>
+
+      <div id="l9" class="lnum">10. </div>
+      <div id="r9" class="rdrop"></div>
+
+      <div id="l10" class="lnum">11. </div>
+      <div id="r10" class="rdrop"></div>
+
+      <div id="l11" class="lnum">12. </div>
+      <div id="r11" class="rdrop"></div>
+
+      <div id="l12" class="lnum">13. </div>
+      <div id="r12" class="rdrop"></div>
+
+      <div id="l13" class="lnum">14. </div>
+      <div id="r13" class="rdrop"></div>
+
+      <div id="l14" class="lnum">15. </div>
+      <div id="r14" class="rdrop"></div>
+
+      <div id="l15" class="lnum">16. </div>
+      <div id="r15" class="rdrop"></div>
+
+      <div id="l16" class="lnum">17. </div>
+      <div id="r16" class="rdrop"></div>
+
+      <input type="button" value="Vote!" id="vote" />
+   </div>
+
+   </form>
+</body>
+</html>
